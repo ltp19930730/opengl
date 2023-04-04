@@ -12,7 +12,7 @@
         "-g",
         "-I${workspaceFolder}/dependencies/include",
         "-L${workspaceFolder}/dependencies/lib",
-        "${workspaceFolder}/*.cpp",
+        "${workspaceFolder}/basic.cpp",
         "${workspaceFolder}/glad.c",
         "${workspaceFolder}/dependencies/lib/libglfw.3.3.dylib",
         "-o",
